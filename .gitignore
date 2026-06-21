@@ -1,0 +1,99 @@
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+.venv/
+venv/
+env/
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+*.egg-info/
+dist/
+build/
+
+# =========================
+# Environment Variables
+# =========================
+
+.env
+.env.*
+!.env.example
+
+backend/.env
+frontend/.env
+
+# =========================
+# Vector DB / Generated Data
+# =========================
+
+# Old FAISS files (legacy)
+data/faiss_*.index
+data/*.faiss
+
+# Generated metadata
+data/jobs_metadata.json
+data/resources_metadata.json
+
+# =========================
+# Node / Frontend
+# =========================
+
+node_modules/
+frontend/node_modules/
+
+frontend/dist/
+dist/
+
+frontend/.vite/
+.vite/
+
+# =========================
+# IDE
+# =========================
+
+.vscode/
+.idea/
+
+*.swp
+*.swo
+
+# =========================
+# OS
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+
+*.log
+logs/
+
+# =========================
+# Coverage
+# =========================
+
+.coverage
+htmlcov/
+
+# =========================
+# Misc
+# =========================
+
+*.tmp
+*.bak
+*.cache
+
+backend/data/saudi_jobs_raw.csv
+data/jobs_dataset/clean_jobs_data.csv

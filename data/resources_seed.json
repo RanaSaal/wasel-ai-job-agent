@@ -1,0 +1,164 @@
+[
+  {
+    "title": "Machine Learning Specialization",
+    "provider": "Coursera / DeepLearning.AI",
+    "url": "https://www.coursera.org/specializations/machine-learning-introduction",
+    "duration": "3 months",
+    "level": "beginner",
+    "skill": "machine learning",
+    "description": "Andrew Ng's foundational ML course covering supervised, unsupervised learning and best practices."
+  },
+  {
+    "title": "PyTorch for Deep Learning Bootcamp",
+    "provider": "Udemy",
+    "url": "https://www.udemy.com/course/pytorch-for-deep-learning/",
+    "duration": "6 weeks",
+    "level": "intermediate",
+    "skill": "pytorch",
+    "description": "Hands-on PyTorch training covering neural networks, CNNs, RNNs and deployment."
+  },
+  {
+    "title": "LangChain & LLM Apps in Python",
+    "provider": "DeepLearning.AI",
+    "url": "https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/",
+    "duration": "1 week",
+    "level": "intermediate",
+    "skill": "langchain",
+    "description": "Build LLM-powered applications using LangChain — chains, agents, memory, RAG."
+  },
+  {
+    "title": "FastAPI — Complete Course",
+    "provider": "Udemy",
+    "url": "https://www.udemy.com/course/fastapi-the-complete-course/",
+    "duration": "3 weeks",
+    "level": "beginner",
+    "skill": "fastapi",
+    "description": "Build production-ready REST APIs with FastAPI, SQLAlchemy, and async Python."
+  },
+  {
+    "title": "Docker & Kubernetes: The Practical Guide",
+    "provider": "Udemy",
+    "url": "https://www.udemy.com/course/docker-kubernetes-the-practical-guide/",
+    "duration": "4 weeks",
+    "level": "intermediate",
+    "skill": "docker",
+    "description": "Master containerization with Docker and orchestration with Kubernetes."
+  },
+  {
+    "title": "AWS Cloud Practitioner",
+    "provider": "AWS Training",
+    "url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+    "duration": "4 weeks",
+    "level": "beginner",
+    "skill": "aws",
+    "description": "Foundational AWS cloud concepts, services, security, and architecture."
+  },
+  {
+    "title": "SQL for Data Science",
+    "provider": "Coursera / UC Davis",
+    "url": "https://www.coursera.org/learn/sql-for-data-science",
+    "duration": "2 weeks",
+    "level": "beginner",
+    "skill": "sql",
+    "description": "SQL fundamentals for data retrieval, filtering, aggregation and joins."
+  },
+  {
+    "title": "Apache Spark with Python",
+    "provider": "Udemy",
+    "url": "https://www.udemy.com/course/spark-and-python-for-big-data-with-pyspark/",
+    "duration": "4 weeks",
+    "level": "intermediate",
+    "skill": "spark",
+    "description": "PySpark for large-scale data processing, ML pipelines, and streaming."
+  },
+  {
+    "title": "React — The Complete Guide",
+    "provider": "Udemy",
+    "url": "https://www.udemy.com/course/react-the-complete-guide-incl-redux/",
+    "duration": "6 weeks",
+    "level": "beginner",
+    "skill": "react",
+    "description": "Build modern React apps with hooks, context, Redux, and TypeScript."
+  },
+  {
+    "title": "HuggingFace NLP Course",
+    "provider": "HuggingFace",
+    "url": "https://huggingface.co/learn/nlp-course/",
+    "duration": "4 weeks",
+    "level": "intermediate",
+    "skill": "nlp",
+    "description": "Transformers, tokenization, fine-tuning, and deployment using HuggingFace."
+  },
+  {
+    "title": "MLflow: An Introduction to MLOps",
+    "provider": "Databricks Academy",
+    "url": "https://www.databricks.com/learn/training/mlflow-fundamentals",
+    "duration": "1 week",
+    "level": "intermediate",
+    "skill": "mlflow",
+    "description": "Track experiments, package models, and deploy with MLflow."
+  },
+  {
+    "title": "Terraform on AWS",
+    "provider": "Udemy",
+    "url": "https://www.udemy.com/course/terraform-beginner-to-advanced/",
+    "duration": "3 weeks",
+    "level": "intermediate",
+    "skill": "terraform",
+    "description": "Infrastructure as Code with Terraform — provision AWS resources and modules."
+  },
+  {
+    "title": "Data Engineering with dbt",
+    "provider": "dbt Labs",
+    "url": "https://courses.getdbt.com/courses/fundamentals",
+    "duration": "1 week",
+    "level": "beginner",
+    "skill": "dbt",
+    "description": "Transform data in your warehouse with dbt — models, tests, and documentation."
+  },
+  {
+    "title": "Kubernetes Fundamentals",
+    "provider": "Linux Foundation",
+    "url": "https://training.linuxfoundation.org/training/kubernetes-fundamentals/",
+    "duration": "3 weeks",
+    "level": "intermediate",
+    "skill": "kubernetes",
+    "description": "Deploy and manage containerized applications on Kubernetes."
+  },
+  {
+    "title": "Python for Data Science and ML",
+    "provider": "Coursera / IBM",
+    "url": "https://www.coursera.org/professional-certificates/ibm-data-science",
+    "duration": "6 months",
+    "level": "beginner",
+    "skill": "python",
+    "description": "Comprehensive Python for data science — pandas, numpy, matplotlib, scikit-learn."
+  },
+  {
+    "title": "Vector Databases and Embeddings",
+    "provider": "DeepLearning.AI",
+    "url": "https://www.deeplearning.ai/short-courses/vector-databases-embeddings-applications/",
+    "duration": "1 week",
+    "level": "intermediate",
+    "skill": "vector database",
+    "description": "Build semantic search and RAG applications using vector databases."
+  },
+  {
+    "title": "Generative AI with LLMs",
+    "provider": "Coursera / AWS",
+    "url": "https://www.coursera.org/learn/generative-ai-with-llms",
+    "duration": "3 weeks",
+    "level": "intermediate",
+    "skill": "generative ai",
+    "description": "Understand transformer architecture, fine-tuning, RLHF, and LLM deployment."
+  },
+  {
+    "title": "PostgreSQL for Beginners",
+    "provider": "Udemy",
+    "url": "https://www.udemy.com/course/the-complete-python-postgresql-developer-course/",
+    "duration": "2 weeks",
+    "level": "beginner",
+    "skill": "postgresql",
+    "description": "PostgreSQL from basics to advanced queries, indexing, and Python integration."
+  }
+]
