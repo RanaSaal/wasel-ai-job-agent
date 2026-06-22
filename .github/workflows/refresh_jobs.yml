@@ -1,0 +1,22 @@
+name: Daily Job Refresh
+on:
+  schedule:
+    - cron: '0 2 * * *'   # 2 AM UTC every day
+  workflow_dispatch:        # allow manual trigger
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r backend/requirements.txt
+      - run: python backend/scripts/refresh_jobs_cron.py
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          URL_QDRANT:     ${{ secrets.URL_QDRANT }}
+          API_KEY_QDRANT: ${{ secrets.API_KEY_QDRANT }}
+          SUPABASE_URL:   ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
