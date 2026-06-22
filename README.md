@@ -14,18 +14,6 @@ The platform analyzes resumes, matches users with relevant jobs, identifies miss
 
 ---
 
-# Wasel AI
-
-Wasel AI is an agentic AI-powered career assistant designed to help job seekers make informed career decisions through personalized, data-driven guidance. Built on a multi-agent architecture orchestrated by LangGraph, the platform analyzes resumes, matches candidates with relevant job opportunities, identifies skill gaps, generates learning roadmaps, creates tailored cover letters, and provides AI-powered career coaching.
-
-By combining OpenAI, Qdrant, and Supabase, Wasel AI delivers context-aware recommendations that help users understand their strengths, improve their qualifications, and accelerate their professional growth.
-
-## Overview
-
-Wasel AI coordinates multiple specialized AI agents that collaborate to support users throughout their job search and career development journey. The system transforms uploaded resumes into actionable insights, evaluates job compatibility, highlights missing skills, recommends learning resources, and provides personalized career guidance.
-
-Whether users are preparing for their first role, transitioning careers, improving their resumes, or planning their next professional step, Wasel AI serves as an intelligent career companion that guides them from resume submission to long-term career success
-
 ## Key Features
 
 ### Resume Analysis
